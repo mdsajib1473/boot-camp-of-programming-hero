@@ -5,10 +5,65 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Learning CSS | Home</title>
+    <style>
+        body {
+            background-color: rgb(84, 151, 206);
+        }
+
+        .button {
+            /* border: 1px solid red; */
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+        }
+
+        .border-fill-button {
+            width: 100px;
+            height: 40px;
+            border-radius: 20px;
+            border: none;
+            background: white;
+            color: #3498db;
+            overflow: hidden;
+            position: relative;
+            z-index: 1;
+        }
+
+        .border-fill-button:hover {
+            color: #fff;
+        }
+
+        .border-fill-button::after {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: #3498db;
+            transform: scaleX(0);
+            transform-origin: left;
+            transition: transform .4s;
+            z-index: -2;
+        }
+
+        .border-fill-button:hover::after {
+            transform: scaleX(1);
+        }
+    </style>
 </head>
 
 <body>
     <h1> I am gonna learn about CSS</h1>
+
+    <div class="button">
+        <form action="">
+            <!-- <input class="border-fill-button" type="submit" value="Enter"> -->
+            <button class="border-fill-button" type="submit">Enter</button>
+        </form>
+    </div>
+
 </body>
 
 </html>
