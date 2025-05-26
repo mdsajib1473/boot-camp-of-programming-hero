@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS | Home</title>
+    <style>
+        * {
+            /* border: 1px solid red; */
+            margin: 10px;
+            padding: 5px;
+            border-radius: 10px;
+
+        }
+
+        header {
+            background: linear-gradient(#076de2, #002244);
+
+        }
+
+        #heading {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            text-align: center;
+            gap: 40px;
+        }
+
+        h1 {
+            /* height: 100px; */
+
+        }
+
+        .icon {
+            height: 80px;
+        }
+
+        ul {
+            align-items: center;
+        }
+
+        #list {
+            display: flex;
+            justify-content: center;
+            color: white;
+            list-style-type: none;
+        }
+
+        header {
+
+            display: flex;
+            justify-content: space-between;
+        }
+
+        img {
+            width: 80px;
+
+        }
+
+        #image1 {
+            width: 350px;
+            height: 600px;
+            /* box-shadow: 0px 0px 15px cyan,
+                0px 0px 15px cyan inset; */
+        }
+
+        #image2 {
+            width: 350px;
+            height: 500px;
+            /* box-shadow: 0px 0px 15px cyan,
+                0px 0px 15px cyan inset; */
+        }
+
+        p {
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <img class="icon" src="https://img.icons8.com/?size=64&id=44013&format=png" alt="">
+        <ul id="list">
+            <li>Home</li>
+            <li>Product</li>
+            <li>About</li>
+            <li>Contact</li>
+        </ul>
+    </header>
+
+    <div id="heading">
+        <div>
+            <h1>Hello, there</h1>
+            <img id="image1" src="images/picture1.jpg" alt="">
+            <p>Studies in SWE (40-B)</p>
+        </div>
+        <div>
+            <h1>Hi, there</h1>
+            <img id="image2" src="images/picture2.png" alt="">
+            <p>Living in YKSG-1 Hall</p>
+        </div>
+    </div>
+</body>
+
+</html>
