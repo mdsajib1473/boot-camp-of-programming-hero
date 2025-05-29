@@ -22,6 +22,10 @@ body {
     border-radius: 40px;
 }
 
+/* .banner-content {
+    margin-top: 36px;
+} */
+
 .banner-content p {
     color: #A8A8A8;
     font-weight: medium;
@@ -35,4 +39,8 @@ body {
 
 .banner-content h1 span {
     color: #F411CF;
+}
+
+.banner-content {
+    width: 50%;
 }
