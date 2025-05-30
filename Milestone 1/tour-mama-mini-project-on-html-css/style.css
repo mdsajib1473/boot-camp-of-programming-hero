@@ -23,7 +23,7 @@ body {
 }
 
 .banner-content {
-    width: 60%;
+    width: 50%;
 }
 
 .banner-content * {
@@ -68,6 +68,33 @@ body {
     color: #F411CF;
 }
 
-.banner-content {
+.banner-img {
     width: 50%;
+}
+
+.banner-img img {
+    width: 600px;
+}
+
+.service {
+    margin: 0px auto 120px auto;
+    width: 87.5%;
+}
+
+.heading-content {
+    text-align: center;
+}
+
+.heading-content h4 {
+    color: #F411CF;
+    font-weight: bold;
+    font-size: 24px;
+    letter-spacing: 3px;
+    margin-bottom: 30px;
+}
+
+.heading-content h2 {
+    font-weight: bold;
+    font-size: 44px;
+    margin-bottom: 55px;
 }
