@@ -91,10 +91,41 @@ body {
     font-size: 24px;
     letter-spacing: 3px;
     margin-bottom: 30px;
+    /* border: 1px solid black; */
 }
 
 .heading-content h2 {
     font-weight: bold;
     font-size: 44px;
     margin-bottom: 55px;
+}
+
+.service-card-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.service-card {
+    background: #FDFFFF;
+    border-radius: 30px;
+    padding: 60px;
+    text-align: center;
+    width: 350px;
+    /* height: 450px; */
+}
+
+.service-card img {
+    margin-bottom: 30px;
+}
+
+.service-card h2 {
+    font-weight: semibold;
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.service-card p {
+    color: #A8A8A8;
+
 }
