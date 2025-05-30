@@ -49,10 +49,6 @@ body {
     border: 2x solid #872BFF;
 }
 
-/* .banner-content {
-    margin-top: 36px;
-} */
-
 .banner-content p {
     color: #A8A8A8;
     font-weight: medium;
@@ -78,7 +74,8 @@ body {
 
 .service,
 .story,
-.country {
+.country,
+.review {
     margin: 0px auto 120px auto;
     width: 87.5%;
 }
@@ -128,7 +125,8 @@ body {
 }
 
 .service-card p,
-.story-content p {
+.story-content p,
+.review-card p {
     color: #A8A8A8;
 
 }
@@ -158,4 +156,37 @@ body {
     background-color: white;
     padding: 40px;
     border-radius: 16px;
+}
+
+.review-card {
+    background: white;
+    padding: 24px;
+    text-align: center;
+    border-radius: 16px;
+    margin-bottom: 60px;
+}
+
+.review-p {
+    margin-bottom: 60px;
+}
+
+footer {
+    background-color: #F3F3F3;
+    margin: 60px auto 0px auto;
+    padding: 17px 123px;
+    /* height: 60px; */
+}
+
+.footer-box {
+    display: flex;
+    justify-content: space-between;
+    /* width: 87.5%; */
+    margin: auto 90px;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    gap: 32px;
+
 }
