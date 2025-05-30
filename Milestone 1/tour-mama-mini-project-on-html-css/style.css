@@ -77,7 +77,8 @@ body {
 }
 
 .service,
-.story {
+.story,
+.country {
     margin: 0px auto 120px auto;
     width: 87.5%;
 }
@@ -140,13 +141,21 @@ body {
     gap: 20px;
 }
 
-/* .story-card-container {
-    padding: 48px;
-    background: white;
-    border-radius: 24px;
-} */
 .story-content h2,
 .story-content p,
 .story-content img {
     margin-bottom: 12px;
+}
+
+.country-card-container {
+    gap: 24px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.country-card-container h2 {
+    background-color: white;
+    padding: 40px;
+    border-radius: 16px;
 }
