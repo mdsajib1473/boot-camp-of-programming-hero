@@ -76,7 +76,8 @@ body {
     width: 600px;
 }
 
-.service {
+.service,
+.story {
     margin: 0px auto 120px auto;
     width: 87.5%;
 }
@@ -125,7 +126,27 @@ body {
     margin-bottom: 20px;
 }
 
-.service-card p {
+.service-card p,
+.story-content p {
     color: #A8A8A8;
 
+}
+
+.story-card {
+    background-color: white;
+    padding: 40px;
+    border-radius: 24px;
+    display: flex;
+    gap: 20px;
+}
+
+/* .story-card-container {
+    padding: 48px;
+    background: white;
+    border-radius: 24px;
+} */
+.story-content h2,
+.story-content p,
+.story-content img {
+    margin-bottom: 12px;
 }
