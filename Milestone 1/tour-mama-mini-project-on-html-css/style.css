@@ -171,22 +171,28 @@ body {
 }
 
 footer {
-    background-color: #F3F3F3;
-    margin: 60px auto 0px auto;
-    padding: 17px 123px;
-    /* height: 60px; */
+    background-color: navy;
+    margin: 60px auto 0;
+    padding: 20px 123px;
 }
 
 .footer-box {
     display: flex;
     justify-content: space-between;
-    /* width: 87.5%; */
-    margin: auto 90px;
+    align-items: center;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.footer-box p {
+    color: white;
+    margin: 0;
 }
 
 ul {
     list-style-type: none;
     display: flex;
     gap: 32px;
-
+    padding: 0;
+    margin: 0;
 }
