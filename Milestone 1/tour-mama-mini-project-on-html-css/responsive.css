@@ -1,5 +1,78 @@
+@media screen and (max-width: 1200px) {
+    .banner-content h1 {
+        font-size: 70px;
+    }
+
+    .service-card {
+        padding: 80px 20px;
+    }
+
+    .story-image img {
+        height: 100%;
+        object-fit: cover;
+        border-radius: 30px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .banner {
+        flex-direction: column-reverse;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .service-card-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .service-card {
+        max-width: 100%;
+    }
+
+    .story-card {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .story-content,
+    .story-image {
+        width: 100%;
+    }
+}
+
 @media (max-width: 768px) {
+
+    .btn,
+    .btn-white {
+        padding: 12px 20px;
+    }
+
+    .banner-content {
+        text-align: center;
+    }
+
+    .banner-content h1 {
+        font-size: 36px;
+    }
+
+    .heading-content h2 {
+        font-size: 32px;
+    }
+
+    #country-card-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #country-card-container h2 {
+        text-align: center;
+    }
+
     .footer-box {
+        display: flex;
         flex-direction: column;
         text-align: center;
         gap: 16px;
