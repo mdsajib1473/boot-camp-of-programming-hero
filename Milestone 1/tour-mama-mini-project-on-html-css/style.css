@@ -34,6 +34,7 @@ body {
     color: white;
     margin-right: 20px;
     cursor: pointer;
+    border-style: none;
 }
 
 .btn-white {
@@ -43,7 +44,7 @@ body {
     color: black;
     margin-right: 20px;
     cursor: pointer;
-    border: 2x solid #872BFF;
+    border: 2px solid #872BFF;
 }
 
 .banner-content p {
