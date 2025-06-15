@@ -83,3 +83,32 @@ h1 {
 p {
     opacity: 70%;
 }
+
+.dev-container {
+    margin: 100px 90px 100px 90px;
+}
+
+.dev-content {
+    text-align: center;
+}
+
+.dev-card {
+    background-color: #E6EDF9;
+    border-radius: 16px;
+    padding: 48px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.dev-info {
+    width: 60%;
+}
+
+.dev-info p {
+    margin-bottom: 32px;
+}
+
+.dev-img {
+    width: 430px;
+}
