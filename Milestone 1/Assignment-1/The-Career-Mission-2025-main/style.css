@@ -1,6 +1,6 @@
 * {
     box-sizing: border-box;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 
 body {
@@ -165,7 +165,6 @@ h3 {
 .card-container {
     display: flex;
     justify-content: space-between;
-    /* align-items: stretch; */
     gap: 84px;
 }
 
@@ -184,4 +183,23 @@ h3 {
 }
 
 /* footer */
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 32px 150px;
+    background-image: linear-gradient(#FFFFFF60);
+}
 
+.footer p {
+    font-family: 'Azeret Mono', monospace;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.footer ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    gap: 24px;
+}
